@@ -115,7 +115,7 @@ class About extends React.Component {
                 {
                     Data_Display.map((val,index)=>{ 
                         return(
-                            <div className='data-count card col-md-2 text-center p-4 ' key={index}>
+                            <div className='data-count card col-md-2 text-center ' key={index}>
                                 <div className='icon-wrapper'>
                                     {val.icon}
                                 </div>
