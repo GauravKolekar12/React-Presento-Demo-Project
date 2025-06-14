@@ -1,0 +1,35 @@
+#blog{
+    width: 100%;
+    margin:auto ;
+    padding: 0;
+}
+
+#blog .scrolled-bar .card{
+    margin: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+#blog .scrolled-bar{
+    margin-bottom: 60px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+    z-index: -1;
+}
+
+/* #blog .scrolled-bar{
+    /* border: 1px solid black; 
+    
+} */
+
+#blog .fixed-bar{
+    height: fit-content;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid black; */
+    
+    
+    
+}
+
+.fixed-bar a:hover{
+    color: rgb(221, 6, 6);
+}

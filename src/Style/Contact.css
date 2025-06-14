@@ -1,0 +1,34 @@
+.contact{
+    margin: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 250px;
+    height: 300px;
+    
+}
+
+.form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+.calls{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    width: auto;
+    
+    
+    
+}
+
+.calls i{
+    font-size: 30px;
+    padding: 10px;
+    color: red;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,16 @@
+
+.products .card{
+    width: auto;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    z-index: -1;
+}
+
+
+/* .row:hover{
+    color: brown;
+    
+} */

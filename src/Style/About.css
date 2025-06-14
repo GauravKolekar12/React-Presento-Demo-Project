@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+#About{
+    position: relative;
+    overflow: hidden;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    z-index: -1;
+    
+    
+}
+
+
+#About .row{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: white;
+    
+}
+
+#About .row i{
+    color: red;
+    font-size: 40px;
+    
+}
+
+.logo .content{
+    box-shadow: 0 0 20px rgba(159, 159, 159, 0.2);
+    margin:5px 0;
+    padding: 10px;
+}
+
+.logo .content:hover{
+    box-shadow: 0 0 20px rgba(119, 119, 119, 0.933);
+    transition: all 0.3s ease-in-out;
+    background-color: #262626bd;
+}
+
+.auto-scroll-wrapper {
+    margin: 30px 0 20px;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 0px 20px rgba(159, 159, 159, 0.2);
+}
+
+.auto-scroll-images {
+    display: flex;
+    animation: scroll-left 25s linear infinite;
+    padding: 20px 0 20px 0;
+}
+
+.auto-scroll-images img {
+    height: 70px;
+    margin-right: 30px;
+    flex-shrink: 0;
+    padding: 10px 0 10px 0;
+}
+
+/* Scroll animation */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.cards-container {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.data-count{
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    padding-top: 30px ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px ;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); /* faded all-side shadow */
+    transition: transform 0.3s ease;
+}
+
+
+
+.icon-wrapper {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #e74c3c;
+}
+
+.data-count h2 {
+    font-size: 32px;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.data-count p {
+    font-size: 16px;
+    color: #555;
+}

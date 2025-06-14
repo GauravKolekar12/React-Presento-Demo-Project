@@ -1,0 +1,10 @@
+.employee:hover{
+    transform: scale(1.03);
+    transition: all 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.team h1:hover{
+    color: rgba(255, 0, 0, 0.83);
+    transition: all 0.7s ;
+}
