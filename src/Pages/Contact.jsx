@@ -11,39 +11,55 @@ const Contact = () => {
                     <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
                 </div>
             </div>
-            <div className=' container-fluid col-md-12  '>
-                <div className=' row gx-3 text-dark '>
-                    {/* *********Contact Info************ */}
-                    <div className='contact col-md-5'>
-                        <div className='calls'>
-                            <i className="bi bi-geo-alt "></i>
-                            <h3>Address</h3>
-                            <p>A108 Adam Street, New York, NY 535022</p>
-                        </div>
-                        <div className='row text-dark'>
-                            <div className='calls col-md-3'>
-                                <i className="bi bi-telephone"></i>
-                                <h3>Calls</h3>
-                                <p>+1 5589 55488 55</p>
+
+            {/* *********Contact Info************ */}
+            <div className=' container my-5 '>
+                <div className='row'>
+                {/* Left Column: Contact Info */}
+                    <div className='col-md-6'>
+                        <div className='row g-4'>
+                            <div className='col-md-12'>
+                                <div className='contact-box p-2   text-center'>
+                                    <div className='icon mb-1 '>
+                                        <i className="bi bi-geo-alt-fill fs-1 text-danger"></i>
+                                    </div>
+                                    <h5 className='fw-bold'>Address</h5>
+                                    <p className='text-muted'>A108 Adam Street, New York, NY 535022</p>
+                                </div>
                             </div>
-                            <div className='calls col-md-3 '>
-                                <i className="bi bi-envelope"></i>
-                                <h3>Email</h3>
-                                <p>presento@example.com</p>
+                            <div className='col-md-6'>
+                                <div className='contact-box p-2  text-center'>
+                                    <div className='icon mb-1 '>
+                                        <i className="bi bi-telephone-fill fs-1  text-danger text-center"></i>
+                                    </div>
+                                    <h5 className='fw-bold'>Call Us</h5>
+                                    <p className='text-muted'>+1 5589 55488 55</p>
+                                </div>
+                            </div>
+                            <div className='col-md-6'>
+                                <div className='contact-box p-2  text-center'>
+                                    <div className='icon mb-1 '>
+                                        <i className="bi bi-envelope-fill fs-1 text-danger"></i>
+                                    </div>
+                                    <h5 className='fw-bold'>Email Us</h5>
+                                    <p className='text-muted'>info@example.com</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    {/* *********Form************ */}
+                    {/* *********Right Column: Form Info************ */}
                     <div className='form col-md-6 '>
-                        <form>
-                            <div className='d-flex justify-content-center text-light   '>
-                                <input type="text" placeholder='Your Name' className="form-control " />
+                        <form className='row g-2 '>
+                            <div className='d-flex justify-content-center text-light gap-2 pt-3  '>
+                                <input type="text" placeholder='Your Name' className="form-control  " />
                                 <input type='text' placeholder='Your Email' className='form-control '/>
                             </div>
                             <div className='text-light py-4 '>
                                 <input type="text" placeholder='Subject' className="form-control" />
-                                <textarea placeholder='Message' className="form-control my-4"/>
-                                <button type="submit" className="btn btn-danger btn-sm">Submit</button>
+                            </div>
+                            <div className='text-light '>
+                                <textarea placeholder='Message' className="form-control my-3 h-75"/>
+                                <button type="submit" className="btn btn-danger">Submit</button>
                             </div>
                         </form>
                     </div>
