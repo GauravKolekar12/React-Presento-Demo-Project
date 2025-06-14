@@ -147,7 +147,7 @@ export default class Portfollio extends Component {
                             <div className='col-md-4' key={val.id}>
 
                                 <div className="card text-bg-dark text-dark">
-                                    <img src={val.img} class="card-img" alt="..."/>
+                                    <img src={val.img} class="card-img hover-scale" alt="..."/>
                                     <div className="card-img-overlay">
                                         <h5 className="card-title">{val.name}</h5>
                                         <p className="card-text">{val.text}</p>
@@ -170,7 +170,7 @@ export default class Portfollio extends Component {
                             <div className='col-md-4' key={val.id}>
 
                                 <div class="card text-bg-dark">
-                                    <img src={val.img} class="card-img" alt="..."/>
+                                    <img src={val.img} class="card-img hover-scale" alt="..."/>
                                     <div class="card-img-overlay">
                                         <h5 class="card-title">{val.name}</h5>
                                         <p class="card-text">{val.text}</p>
@@ -193,7 +193,7 @@ export default class Portfollio extends Component {
                             <div className='col-md-4 ' key={val.id}>
 
                                 <div class="card text-dark ">
-                                    <img src={val.img} class="card-img" alt="..."/>
+                                    <img src={val.img} class="card-img hover-scale" alt="..."/>
                                     <div class="card-img-overlay">
                                         <h5 class="card-title">{val.name}</h5>
                                         <p class="card-text">{val.text}</p>

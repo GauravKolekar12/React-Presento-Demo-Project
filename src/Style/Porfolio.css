@@ -2,7 +2,7 @@
 .products .card{
     width: auto;
     height: auto;
-    margin: 20px;
+    margin: 40px;
     display: flex;
     align-items: center;
     text-align: start;
@@ -10,7 +10,10 @@
 }
 
 
-/* .row:hover{
-    color: brown;
-    
-} */
+.hover-scale{
+    transition: transform 0.4s ease;
+}
+
+.card:hover .hover-scale{
+    transform: scale(1.1);
+}
