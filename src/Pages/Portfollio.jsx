@@ -122,9 +122,9 @@ export default class Portfollio extends Component {
         ]
         return (
         <React.StrictMode>
-            <div id='portfolio' className='container-fluid col-md-12 '>
+            <div id='portfolio' className='container-fluid col-md-12 w-100 '>
                 <div className=' text-center bg-dark text-light py-2'>
-                    <h1 className='text-danger fw-bold'>PORTFOLIO</h1>
+                    <h1 className=' fw-bold'>PORTFOLIO</h1>
                     <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
                 </div>
                 <hr/>

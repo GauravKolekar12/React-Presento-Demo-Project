@@ -23,5 +23,32 @@
     border-radius: 50%;
     display: inline-block;
     padding: 5px;
+}
+
+.Information-box{
+    margin-bottom: 70px;
+    background-color: #101010;
+    color:white;
+    text-align: start;
+    padding: 30px;
     
+}
+
+.Social-Icons i{
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px;
+    font-weight: 900;
+}
+
+.Social-Icons i:hover{
+    cursor: pointer;
+    color: rgb(246, 58, 58);
+    transition: all 0.3s ease-in-out;
+}
+
+.Information-box .Links a:hover{
+    color:rgb(246, 58, 58) ;
+    transition: all 0.3s ease-in-out;
+
 }
