@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const Services = () => {
   return (
-    <React.StrictMode>
+    <React.Fragment>
       <div className='container-fluid col-md-12 bg-dark py-5'>
         <div className='text-light text-center mb-3'>
           <NavLink to='/' className="nav-link"><h1>SERVICES</h1></NavLink>
@@ -67,7 +67,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </React.StrictMode>
+    </React.Fragment>
   )
 }
 

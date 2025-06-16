@@ -5,7 +5,7 @@ import '../Style/Contact.css'
 
 const Contact = () => {
     return (
-        <React.StrictMode>
+        <React.Fragment>
             <div className='container-fluid col-md-12 mb-5 w-100'>
                 <div className=' text-center py-2'>
                     <h1>CONTACT</h1>
@@ -118,7 +118,7 @@ const Contact = () => {
                 
             
         
-        </React.StrictMode>
+        </React.Fragment>
     )
     }
 
