@@ -23,7 +23,7 @@
     background: rgba(255, 255, 255, 0.1);
 }
 
-.icon {
+.services .icon {
     flex-shrink: 0;
     width: 100px;
     height: 80px;
