@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
     return (
         <React.Fragment>
-        <nav className="navbar navbar-expand-lg shadow-sm bg-light position-fixed w-100">
+        <nav className="navbar navbar-expand-lg shadow-sm bg-light position-fixed w-100 top-0">
             <div className="container-fluid">
                 <NavLink className="navbar-brand mx-5 fw-bold" to="/"><img src='/logo512.png' alt='' style={{width:'30px'}}/> Presento<span className='text-danger'>.</span></NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

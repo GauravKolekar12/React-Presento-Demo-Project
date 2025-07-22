@@ -21,7 +21,7 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: auto;
+    /* height: auto; */
     color: white;
     
 }
@@ -49,12 +49,14 @@ body{
     overflow: hidden;
     width: 100%;
     box-shadow: 0 0px 20px rgba(159, 159, 159, 0.2);
+    
 }
 
 .auto-scroll-images {
     display: flex;
     animation: scroll-left 25s linear infinite;
     padding: 20px 0 20px 0;
+    
 }
 
 .auto-scroll-images img {
@@ -62,6 +64,7 @@ body{
     margin-right: 30px;
     flex-shrink: 0;
     padding: 10px 0 10px 0;
+    z-index: -1;
 }
 
 /* Scroll animation */
@@ -92,6 +95,7 @@ body{
     margin: 30px ;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); /* faded all-side shadow */
     transition: transform 0.3s ease;
+    z-index: -1;
 }
 
 

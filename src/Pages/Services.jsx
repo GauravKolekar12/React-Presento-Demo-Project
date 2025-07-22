@@ -10,7 +10,7 @@ const Services = () => {
           <NavLink to='/' className="nav-link"><h1>SERVICES</h1></NavLink>
           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         </div>
-        <div className='container'>
+        <div className='container services'>
           <div className='row g-3'>
             <div className='col-md-6'>
               <div className='service-box d-flex align-items-start'>

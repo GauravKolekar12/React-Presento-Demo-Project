@@ -1,6 +1,7 @@
 import React from 'react'
 
 import '../Style/Contact.css'
+import { NavLink } from 'react-router-dom'
 
 
 const Contact = () => {
@@ -88,19 +89,19 @@ const Contact = () => {
                             <div className='Links col-md-4 d-flex justify-content-center gap-5 text-start '>
                                 <div>
                                     <h4 className='fw-bold pb-4'>Usefull Links</h4>
-                                    <p> <a href='/contact' className="nav-link">Home</a></p>
-                                    <p> <a href='/contact' className="nav-link">About us</a></p>
-                                    <p> <a href='/contact' className="nav-link">Services</a></p>
-                                    <p> <a href='/contact' className="nav-link">Terms of service</a></p>
-                                    <p> <a href='/contact' className="nav-link">Privacy policy</a></p>
+                                    <p> <NavLink to='/' className="nav-link">Home</NavLink></p>
+                                    <p> <NavLink to='/about' className="nav-link">About us</NavLink></p>
+                                    <p> <NavLink to='/services' className="nav-link">Services</NavLink></p>
+                                    <p> <NavLink to='/contact' className="nav-link">Terms of service</NavLink></p>
+                                    <p> <NavLink to='/contact' className="nav-link">Privacy policy</NavLink></p>
                                 </div>
                                 <div>
                                     <h4 className='fw-bold pb-4'>Our Services</h4>
-                                    <p> <a href='/contact' className="nav-link">Web Design</a></p>
-                                    <p> <a href='/contact' className="nav-link">Web Development</a></p>
-                                    <p> <a href='/contact' className="nav-link">Product Management</a></p>
-                                    <p> <a href='/contact' className="nav-link">Marketing</a></p>
-                                    <p> <a href='/contact' className="nav-link">Graphic Design</a></p>
+                                    <p> <NavLink to='/contact' className="nav-link">Web Design</NavLink></p>
+                                    <p> <NavLink to='/contact' className="nav-link">Web Development</NavLink></p>
+                                    <p> <NavLink to='/contact' className="nav-link">Product Management</NavLink></p>
+                                    <p> <NavLink to='/contact' className="nav-link">Marketing</NavLink></p>
+                                    <p> <NavLink to='/contact' className="nav-link">Graphic Design</NavLink></p>
                                 </div>
                             </div>
 
