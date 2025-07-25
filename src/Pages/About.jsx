@@ -160,43 +160,6 @@ export default class About extends React.Component {
                     })}
                 </div>
             </div>
-
-            <div className="container-fluid  pb-5">
-                <div className="row">
-                    <div className="col-md-12">
-                        <div class="row">
-                            {
-                                About_Data.map((val, index) => {
-                                    return (
-                                        <>
-                                        <div
-                                            className="col-md-4 bg-dark text-light shadow-lg"
-                                            onClick={() => DisplayItem(val.id)}
-                                        >
-                                            {val.h1}
-                                        </div>
-                                        </>
-                                    );
-                                })
-                            }
-                            <hr />
-                            {
-                                this.selectedItem &&(
-                                    <div className="row col-md-12">
-                                        <div className="card col-md-6 p-3 shadow-sm ">
-                                            <h4>{this.state.selectedItem.h1}</h4>
-                                            <p>{this.state.selectedItem.p}</p>
-                                            <div className="col-md-6">
-                                                <img src={this.state.selectedItem.img} className="img-fluid" style={{height:"300px"}}/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                )
-                            }
-                        </div>
-                    </div>
-                </div>
-            </div>
             
         </div>
         )
